@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/primarybar"
+        android:icon="@drawable/cf"
+        android:title="demo1"
+        app:showAsAction="always"
+       ></item>
+    <item
+        android:id="@+id/secondmenuitem"
+        android:title="data"
+        android:icon="@drawable/cf"
+       ></item>
+    <item
+        android:id="@+id/third"
+        android:title="demo2"
+        android:icon="@drawable/cf"/>
+    <item
+        android:id="@+id/sunmenu"
+        android:title="submenudemo1"
+        >
+        <menu>
+            <item
+                android:id="@+id/subdemo1"
+                android:title="subdemo1"
+                ></item>
+            <item
+                android:id="@+id/subdemo2"
+                android:title="subdemo2"
+                >
+            </item>
+        </menu>
+    </item>
+
+
+
+
+</menu>
