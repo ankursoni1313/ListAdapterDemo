@@ -11,7 +11,7 @@ import android.widget.ListView;
 import android.widget.Switch;
 
 public class MainActivity extends AppCompatActivity {
-    String [] listdata={"apple","mango","banana","grapes","pich","pineapple","lemon","apple","mango","banana","grapes","pich","pineapple","lemon","apple","mango","banana","grapes","pich","pineapple","lemon"};
+    String [] listdata={"lemon","apple","mango","banana","grapes","pich","pineapple","lemon"};
     ListView listView;
 
     @Override
